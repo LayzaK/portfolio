@@ -18,7 +18,7 @@
     position: absolute;
     top: 0.4rem;;
     right: 14px;
-    background-image: url('./assets/icons/header.svg');
+    background-image: url('assets/icons/header.svg');
 }
 
 .header .photo{
@@ -63,19 +63,19 @@
 }
 
 .informations p.uni::before{
-        background-image: url('./assets/icons/contacticon.svg');
+        background-image: url('assets/icons/contacticon.svg');
 }
 
 .informations p.location::before{
-        background-image: url('./assets/icons/locationicon.svg');
+        background-image: url('assets/icons/locationicon.svg');
 }
 
 .informations p.phone::before{
-        background-image: url('./assets/icons/wppicon.svg');
+        background-image: url('assets/icons/wppicon.svg');
 }
 
 .informations p.email::before{
-        background-image: url('./assets/icons/emailicon.svg');
+        background-image: url('assets/icons/emailicon.svg');
 }
 
 @media only screen and (min-width: 680px) {
