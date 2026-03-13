@@ -1,0 +1,24 @@
+.languages {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.languages li {
+   padding: 0.5rem;
+}
+
+.languages li::before{
+    content: '';
+    display: inline-block;
+    width: 0.8rem;
+    height: 0.8rem;
+    background-image: url(/assets/icons/languagescheck.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 0.5rem;
+    vertical-align: middle;
+}

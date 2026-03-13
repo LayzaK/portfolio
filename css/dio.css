@@ -1,0 +1,12 @@
+.dio-footer{
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    padding: 1rem;
+}
+
+
+.dio-logo{
+    width: 30px;
+    height: 30px;
+}

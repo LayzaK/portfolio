@@ -1,0 +1,33 @@
+.education{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0%;
+    line-height: 0.5;
+}
+
+.education p{
+    font-size: 10px;
+    margin-top: 2px;
+}
+
+.education .name-user{
+    font-weight: bold;
+    font-size: 8px;
+    font-style: italic;
+}
+
+.education .uni-date{
+    font-weight: bold;
+    font-size: 8px;
+    font-style: italic;
+}
+
+.education p{
+    color: #ffff;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+p:hover{
+    color: #323370;
+}

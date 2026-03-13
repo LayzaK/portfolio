@@ -1,0 +1,45 @@
+.skills-list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: max-content max-content;
+    gap: 5px; /* Espaço entre os ícones (vertical e horizontal) */
+    margin-top: 5px;
+}
+
+.skills-list li {
+    display: flex;
+    align-items: center;
+    /* Removi o margin-bottom porque o 'gap' já faz esse trabalho */
+}
+
+.skills-list li::before {
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.skills-wrapper{
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    gap: 40px;
+    align-items: start;
+    padding: 10px 0;
+}
+
+.skills-column ul{
+    padding: 0;
+    font-size: 10px;
+    opacity: 0.8;
+    padding-left: 0;
+
+}
+
+.icon-css::before { background-image: url('/assets/icons/cssicon.svg'); }
+.icon-js::before { background-image: url('/assets/icons/jsicon.svg'); }
+.icon-react::before { background-image: url('/assets/icons/reacticon.svg'); }
+.icon-sql::before { background-image: url('/assets/icons/sqlicon.svg'); }

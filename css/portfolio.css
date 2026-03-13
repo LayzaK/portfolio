@@ -1,0 +1,17 @@
+.project::before{
+    content: ' ';
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-image: url(/assets/icons/githubicon.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 8px;
+}
+
+.project-link {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 10px;
+    padding-top: -5px;
+}
