@@ -39,7 +39,7 @@
 
 }
 
-.icon-css::before { background-image: url('assets/icons/cssicon.svg'); }
-.icon-js::before { background-image: url('assets/icons/jsicon.svg'); }
-.icon-react::before { background-image: url('assets/icons/reacticon.svg'); }
-.icon-sql::before { background-image: url('assets/icons/sqlicon.svg'); }
+.icon-css::before { background-image: url('../assets/icons/cssicon.svg'); }
+.icon-js::before { background-image: url('../assets/icons/jsicon.svg'); }
+.icon-react::before { background-image: url('../assets/icons/reacticon.svg'); }
+.icon-sql::before { background-image: url('../assets/icons/sqlicon.svg'); }
